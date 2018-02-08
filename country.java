@@ -42,9 +42,15 @@ public class country
     }
     
     
-    public void build()
+    public void build_army()
     {
-        
+        if (population >= 1)
+        {
+            
+            
+            
+            
+        }
         
         
         
@@ -53,10 +59,18 @@ public class country
     {
             if ( obj.equals("army"))
             {
-            this.army = army - 1;
+            this.army = army - subtract;
             
-        }
+            }
            
+        
+    
+    
+    
+    
+    
+    
+    
     }
     
     
