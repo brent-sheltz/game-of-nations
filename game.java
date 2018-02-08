@@ -7,20 +7,38 @@ import java.util.Scanner;
  */
 public class game
 {
-    country usa = new country("usa",10,10,10,10,true) ;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    public static void main(String[] Args)
+    { 
+        country usa = new country("usa",10,10,10,10,10 ,true,5,5) ;
+        country USSR = new country("USSR",10,10,10,10,10,true,5,5) ;
+        country iran = new country("iran",10,10,10,10,10,false,5,5) ;
+
+        Scanner kb = new Scanner(System.in);
+        String response = kb.nextLine();
+
+        while(! response.equals("done"))
+        {
+
+            if (response.equals("battle"))
+            {
+                System.out.println("who is attacking");
+                String att_nat = kb.nextLine(); 
+                System.out.println("who is defending");
+                String def_nat = kb.nextLine();
+                System.out.println(" how many armys does attacker have ");
+                int att_army= kb.nextInt();
+               
+                System.out.println(" how many armys does defender have");
+                int def_army= kb.nextInt();
+                battle.battle(att_nat,def_nat,att_army,def_army)  ;
+
+            }
+
+            response = ""; 
+            response = kb.nextLine(); 
+        }
+    }
+
     
 }
