@@ -30,5 +30,12 @@ dont know
 
 
 
+Current bugs
+battle loss not subtracting properly
+asks who defender is twice 
+
+
+
+
 
 
