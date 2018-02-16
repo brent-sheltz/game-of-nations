@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Collie
+comment1.params=
+comment1.target=Collie()
+comment2.params=myName\ myAge\ myFurLength
+comment2.target=Collie(java.lang.String,\ int,\ double)
+comment3.params=
+comment3.target=java.lang.String\ bark()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Dog
+comment1.params=
+comment1.target=Dog()
+comment2.params=daName\ theAge
+comment2.target=Dog(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ \ \ \ public\ Dog(\ String\ name,\ int\ age\ )\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ this.name\ \=\ name;\r\n\ \ \ \ \ \ \ \ this.age\ \=\ age;\r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=java.lang.String\ bark()
+numComments=7
